@@ -18,61 +18,67 @@
       />
     </head>
     <body>
-      <div class="container">
-        <header class="d-flex justify-content-center py-3">
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="./projects.html"
-                class="nav-link active"
-                aria-current="page"
-                >Projects</a
-              >
-            </li>
-          </ul>
-        </header>
-      </div>
+      <section id="header">
+        <div class="container">
+          <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./projects.html"
+                  class="nav-link active"
+                  aria-current="page"
+                  >Projects</a
+                >
+              </li>
+            </ul>
+          </header>
+        </div>
+      </section>
+ 
 
-      <div class="container marketing">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">This Website!</h2>
-            <p class="lead">This website is made using BootStrap components.</p>
+      <section id="projects-body">
+        <div class="container marketing px-4 py-5">
+          <div class="row featurette py-5">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">This Website!</h2>
+              <p class="lead">I started this website to show-case my personal projects, and it has also allowed me practice web development using well-known frameworks. I made this website using BootStrap components, and aim to continuously update it when I gain new techniques.</p>
+            </div>
+            <div class="col-md-5">
+              <img
+                class="featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
+                src="./assets/website.png"
+                alt="The website"
+              />
+            </div>
           </div>
-          <div class="col-md-5">
-            <img
-              class="featurette-image img-fluid mx-auto"
+  
+          <hr class="featurette-divider" />
+  
+          <div class="row featurette py-5">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Coming Soon...</h2>
+              <p class="lead">Coming soon</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
               height="500"
-              src="./assets/website.png"
-              alt="The website"
+              src="./assets/wolverine-placeholder.jpg"
+              alt="Wolverine looking at portrait"
             />
+            </div>
           </div>
         </div>
+      </section>
 
-        <hr class="featurette-divider" />
 
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Coming Soon...</h2>
-            <p class="lead">Coming soon</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            src="./assets/wolverine-placeholder.jpg"
-            alt="Wolverine looking at portrait"
-          />
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
+      <section id="footer">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
         >
@@ -100,7 +106,7 @@
             </li>
           </ul>
         </footer>
-      </div>
+    </section>
 
       <script src="scripts.js"></script>
       <script
